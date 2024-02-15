@@ -1,0 +1,51 @@
+header,
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: bisque;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* nav ul li a {
+  display: block;
+  text-decoration: none;
+  background-color: darkgray;
+  color: white;
+  padding: 16px;
+}
+nav ul li a:hover {
+  background-color: black;
+} */
+
+article {
+  background-color: darkcyan;
+  text-align: justify;
+}
+
+header,
+nav,
+article,
+footer {
+  padding: 24px;
+}
+
+/* Layout settings */
+
+nav {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+article {
+  width: 70%;
+  box-sizing: border-box;
+}

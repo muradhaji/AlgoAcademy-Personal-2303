@@ -1,0 +1,26 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* odd - tek */
+/* even - cut */
+
+/* tr:nth-child(even) {
+  background-color: aqua;
+} */
+
+/* th:nth-child(odd),
+td:nth-child(odd) {
+  background-color: aqua;
+} */
+
+tr:hover {
+  background-color: aqua;
+}

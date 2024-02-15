@@ -1,0 +1,46 @@
+section#ourskills {
+  padding: 144px 48px;
+  display: flex;
+  gap: 24px;
+}
+section#ourskills > div.left {
+  flex: 1;
+}
+section#ourskills > div.left > h1 {
+}
+section#ourskills > div.left > p {
+}
+section#ourskills > div.right {
+  flex: 1;
+}
+section#ourskills > div.right > h1 {
+}
+section#ourskills > div.right > div.progressBar {
+  display: flex;
+}
+section#ourskills > div.right > div.progressBar > div.left {
+  flex: 9;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+section#ourskills > div.right > div.progressBar > div.right {
+  flex: 1;
+  background-color: gray;
+}
+
+section#ourskills > div.right > div.progressBar2 {
+  background-color: gray;
+}
+section#ourskills > div.right > div.progressBar2 > div.percent {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  width: 85%;
+}
+
+section#ourskills > div.right > div.progressBar2 > div.percent.percent75 {
+  width: 75%;
+}

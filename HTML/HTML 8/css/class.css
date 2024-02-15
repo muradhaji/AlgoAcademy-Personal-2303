@@ -1,0 +1,50 @@
+/* h1 {
+  color: red;
+} */
+
+.america {
+  background-color: red;
+}
+
+.almancars {
+  background-color: blue;
+}
+
+.almanСars {
+  background-color: blueviolet;
+}
+
+.italicyazi {
+  font-style: italic;
+}
+
+/* .myMainHeader {} Camel Case*/
+/* .MyMainHaider {} Pascal Case */
+/* .my_main_header {} Snake Case */
+/* .my-main-header {} Kebab Case */
+
+/* h1.myMainHeader {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blue;
+  color: white;
+} */
+
+/* .1myMainHeader {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blue;
+  color: white;
+} */
+
+#mountain {
+  background-color: green;
+}
+
+#planet1 {
+  background-color: gray;
+}
+
+#1nebula {
+  background-color: orangered;
+}

@@ -1,0 +1,25 @@
+:root {
+  --darkGreen: #12372a;
+  --lightGray: #adbc9f;
+  --thinRedBorder: 2px solid red;
+}
+
+html {
+  background-color: green;
+}
+
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: var(--darkGreen);
+  background-color: var(--lightGray);
+  border: var(--thinRedBorder);
+}
+
+p {
+  color: var(--darkGreen);
+  background-color: var(--lightGray);
+  border: var(--thinRedBorder);
+}

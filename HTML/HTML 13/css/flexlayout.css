@@ -1,0 +1,46 @@
+header,
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: bisque;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  background-color: darkcyan;
+}
+
+header,
+nav,
+article,
+footer {
+  padding: 24px;
+}
+
+/* Layout CSS */
+
+section {
+  display: flex;
+}
+
+nav {
+  flex: 3;
+}
+
+article {
+  flex: 7;
+}
+
+@media (max-width: 400px) {
+  section {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,82 @@
+div {
+  /* width: 300px;
+  height: 100px; */
+}
+
+.d1 {
+  background-color: orangered;
+
+  /* transform: translateX(100px); */
+  /* transform: translateY(100px); */
+  /* transform: translate(100px, 100px); */
+  /* transform: translateX(50%); */
+  /* translate: 50% 50%; */
+
+  /* position: relative; */
+  /* left: 50%; */
+}
+.d2 {
+  background-color: darkcyan;
+
+  /* transform: rotate(-45deg); */
+  /* transform: rotate(1rad); */
+  /* transform: rotate(0.125turn); */
+  /* transform: rotateZ(45deg); */
+  /* rotate: 45deg; */
+}
+.d3 {
+  background-color: yellow;
+
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+  /* transform: scaleY(1.5); */
+  /* transform: scaleY(0.5); */
+  /* transform: scaleY(0); */
+  /* transform: scaleY(120%); */
+  /* transform: scaleY(50%); */
+  /* transform: scale(2, 2); */
+  /* scale: 0.5 0.5; */
+}
+.d4 {
+  background-color: violet;
+
+  /* transform: skewX(20deg); */
+  /* transform: skewY(20deg); */
+  /* transform: skew(20deg, 20deg); */
+}
+
+.d2 {
+  /* transform: translate(100px, 100px) rotate(45deg) scale(80%, 80%) skew(20deg, 20deg); */
+}
+
+img {
+  width: 100%;
+}
+
+div.parent {
+  position: relative;
+  width: 80%;
+}
+
+a.text {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding: 20px;
+  font-size: 32px;
+  /* border-radius: 0px 32px; */
+  border-radius: 0px 0px 32px 0px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* left: 50%; */
+  /* top: 50%; */
+
+  /* transform: translate(-50%, -50%); */
+}
+
+a.text:hover {
+  background-color: white;
+}

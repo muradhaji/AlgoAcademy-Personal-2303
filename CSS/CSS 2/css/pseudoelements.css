@@ -1,0 +1,42 @@
+/* div::first-line {
+  color: red;
+} */
+
+/* div::first-letter {
+  color: red;
+  font-size: 48px;
+} */
+
+/* span::first-line {
+  color: red;
+} */
+
+/* span::first-letter {
+  color: red;
+  font-size: 48px;
+} */
+
+/* span {
+  display: block;
+} */
+
+/* h1 {
+  color: blue;
+}
+
+h1.special::before {
+  content: 'Hello ';
+}
+
+h1.special::after {
+  content: ', How are you?';
+} */
+
+/* li::marker {
+  color: blue;
+} */
+
+span::selection {
+  background-color: orangered;
+  color: white;
+}

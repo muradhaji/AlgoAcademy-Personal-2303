@@ -1,0 +1,160 @@
+body {
+  display: grid;
+  grid-template-areas:
+    'H H'
+    'A M'
+    'A F';
+  grid-template-columns: 250px auto;
+
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  grid-area: H;
+
+  position: sticky;
+  top: 0;
+}
+aside {
+  grid-area: A;
+
+  position: fixed;
+  top: 40px;
+  left: 0px;
+  bottom: 0px;
+  width: 250px;
+}
+main {
+  grid-area: M;
+}
+footer {
+  grid-area: F;
+}
+
+/* Horizontal Menu */
+
+header > nav.horMenu {
+  display: flex;
+  background-color: black;
+}
+header > nav.horMenu > a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+}
+header > nav.horMenu > a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Vertical Menu */
+aside {
+  background-color: #f0f0f0;
+}
+aside > h3 {
+  padding: 0px 16px;
+}
+aside > nav.verMenu {
+  display: flex;
+  flex-direction: column;
+}
+aside > nav.verMenu > a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+aside > nav.verMenu > a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+
+footer > p {
+  color: white;
+  margin: 0;
+}
+footer > p.top {
+  background-color: #999999;
+  padding: 48px 16px;
+}
+footer > p.bottom {
+  background-color: #333333;
+  padding: 24px 16px;
+}
+footer > p.bottom > a {
+  color: white;
+}
+
+/* Pages Nav */
+
+main {
+  padding: 36px 16px;
+}
+
+main > nav.pagesMenu {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+main > nav.pagesMenu > a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+}
+main > nav.pagesMenu > a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Article */
+
+article {
+  display: flex;
+  gap: 32px;
+
+  margin-bottom: 32px;
+}
+article > div.text {
+  flex: 7;
+}
+article > div.text > h2 {
+  color: darkcyan;
+}
+article > div.text > p {
+}
+article > div.ads {
+  flex: 3;
+}
+article > div.ads > div {
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+article > div.ads > div.smallAd {
+  margin-bottom: 16px;
+  padding: 32px 16px;
+}
+article > div.ads > div.bigAd {
+  padding: 64px 16px;
+}
+
+@media (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+  body {
+    grid-template-areas:
+      'H'
+      'M'
+      'F';
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  article {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,25 @@
+a.myBtn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+a.myBtnPrimary {
+  background-color: blue;
+}
+
+a.myBtnPrimary:hover {
+  background-color: rgb(0, 0, 161);
+}
+
+a.myBtnDanger {
+  background-color: red;
+}
+
+a.myBtnDanger:hover {
+  background-color: rgb(159, 0, 0);
+}

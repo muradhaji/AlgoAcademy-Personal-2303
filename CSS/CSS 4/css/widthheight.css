@@ -1,0 +1,33 @@
+div {
+  background-color: darkcyan;
+  /* width: 1500px; */
+  /* height: 1500px; */
+  /* height: 30%; */
+}
+
+body {
+  /* height: 500px; */
+}
+
+div {
+  /* max-width: 700px; */
+  /* min-width: 300px; */
+
+  /* min-height: 108px; */
+  /* max-height: 144px; */
+
+  /* overflow: auto; */
+
+  /* width: 500px; */
+  /* height: 200px; */
+
+  inline-size: 500px;
+  block-size: 200px;
+
+  writing-mode: vertical-rl;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+}

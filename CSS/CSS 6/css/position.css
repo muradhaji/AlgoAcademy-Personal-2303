@@ -1,0 +1,53 @@
+.child1,
+.child2,
+.child3 {
+  width: 300px;
+  height: 100px;
+}
+.child1 {
+  background-color: #ff4500;
+}
+.child2 {
+  background-color: #008b8b;
+}
+.child3 {
+  background-color: #ff0;
+}
+.parent1 {
+  width: 500px;
+  height: 500px;
+  background-color: #0ff;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.child2,
+.special {
+  top: 50px;
+  left: 50px;
+}
+.parent2 {
+  width: 600px;
+  height: 600px;
+  background-color: violet;
+}
+.inline,
+.special {
+  width: 200px;
+  display: inline-block;
+}
+body {
+  width: 4000px;
+}
+.special {
+  background-color: #ff4500;
+  position: sticky;
+  bottom: 50px;
+  right: 50px;
+}
+.inline {
+  background-color: #008b8b;
+}
+.child2 {
+  position: relative;
+}

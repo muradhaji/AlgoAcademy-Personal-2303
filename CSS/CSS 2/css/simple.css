@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+}
+
+p {
+  background-color: blue;
+}
+
+#myDiv {
+  color: green;
+}
+
+.mySpan {
+  background-color: orange;
+}
+
+span.mySpan {
+}
+
+div#myDiv {
+}

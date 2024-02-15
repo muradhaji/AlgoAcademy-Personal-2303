@@ -1,0 +1,42 @@
+div {
+  /* background-color: red;
+  width: 300px;
+  height: 200px;
+
+  padding: 40px;
+  border: 40px solid green;
+  margin: 100px;
+
+  outline-style: solid;
+  outline-width: 20px;
+  outline-color: blue;
+  outline-offset: 0px; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  border: 8px solid rgb(99, 99, 99);
+  border-radius: 4px;
+  padding: 16px;
+  display: inline-block;
+}
+
+a.a1 {
+  transition: outline 0.1s;
+}
+
+a:hover {
+  border-color: rgb(74, 74, 74);
+}
+
+.a1:active {
+  outline: 4px solid rgb(152, 152, 152);
+  outline-offset: 1px;
+}
+
+.a2:active {
+  outline: 4px solid rgb(152, 152, 152);
+  outline-offset: -13px;
+}

@@ -1,0 +1,55 @@
+header,
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: bisque;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  background-color: darkcyan;
+}
+
+header,
+nav,
+article,
+footer {
+  padding: 24px;
+}
+
+/* Layout CSS */
+
+body {
+  display: grid;
+  grid-template-areas:
+    'HE HE RE'
+    'NA AR RE'
+    'NA FO RE';
+  grid-template-columns: 30% 50% 20%;
+}
+
+header {
+  grid-area: HE;
+}
+nav {
+  grid-area: NA;
+}
+article {
+  grid-area: AR;
+}
+footer {
+  grid-area: FO;
+}
+div {
+  padding: 24px;
+  grid-area: RE;
+  background-color: aqua;
+}

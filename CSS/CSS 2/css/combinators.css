@@ -1,0 +1,35 @@
+/* ul li a {
+  color: red;
+} */
+
+/* ul.level2 li a {
+  color: red;
+} */
+
+/* ul.level1 li a {
+  color: red;
+} */
+
+/* ul.level2 > li > a {
+  color: red;
+} */
+
+/* ul.level1 > li > a {
+  color: red;
+} */
+
+/* h1 + p {
+  color: red;
+} */
+
+/* h1 ~ p {
+  color: red;
+} */
+
+/* p:first-child {
+  color: red;
+} */
+
+/* p:last-child {
+  color: red;
+} */
